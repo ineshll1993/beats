@@ -1,0 +1,20 @@
+{
+    "@timestamp":"2016-05-23T08:05:34.853Z",
+    "beat":{
+        "hostname":"monitoringclient",
+        "name":"monitoringclient"
+    },
+    "metricset":{
+        "host":"localhost",
+        "module":"mongodb",
+        "name":"htop",
+        "rtt":44269
+    },
+    "mongodb":{
+        "htop":{
+            "cpu": "0.2",
+            "ram": 286552064
+        }
+    },
+    "type":"metricsets"
+}

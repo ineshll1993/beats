@@ -70,6 +70,7 @@ import (
 	_ "github.com/elastic/beats/metricbeat/module/memcached/stats"
 	_ "github.com/elastic/beats/metricbeat/module/mongodb"
 	_ "github.com/elastic/beats/metricbeat/module/mongodb/dbstats"
+	_ "github.com/elastic/beats/metricbeat/module/mongodb/htop"
 	_ "github.com/elastic/beats/metricbeat/module/mongodb/status"
 	_ "github.com/elastic/beats/metricbeat/module/mysql"
 	_ "github.com/elastic/beats/metricbeat/module/mysql/status"

@@ -88,9 +88,13 @@ The following metricsets are available:
 
 * <<metricbeat-metricset-mongodb-dbstats,dbstats>>
 
+* <<metricbeat-metricset-mongodb-htop,htop>>
+
 * <<metricbeat-metricset-mongodb-status,status>>
 
 include::mongodb/dbstats.asciidoc[]
+
+include::mongodb/htop.asciidoc[]
 
 include::mongodb/status.asciidoc[]
 

@@ -1,0 +1,14 @@
+- name: htop
+  type: group
+  description: > 
+    `htop` cpu and ram stats
+  fields:
+    - name: cpu
+      type: scaled_float
+      format: percent
+      description: >
+        The percentage of CPU time spent 
+      
+    - name: ram
+      type: long
+      format: bytes	
